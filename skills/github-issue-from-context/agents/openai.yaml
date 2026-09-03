@@ -1,0 +1,7 @@
+interface:
+  display_name: "从上下文创建 GitHub Issue"
+  short_description: "将讨论或指定文档整理为可确认发布的 GitHub Issue"
+  default_prompt: "使用 $github-issue-from-context 将刚才讨论的内容整理成 GitHub Issue，预览后等待我确认发布。"
+
+policy:
+  allow_implicit_invocation: true
