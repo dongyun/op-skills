@@ -1,0 +1,4 @@
+interface:
+  display_name: "文字稿转音频"
+  short_description: "将文字稿转换为可选音色的单人或多角色音频，并可同时生成主题封面"
+  default_prompt: "使用 $text-to-audio 将这份文字稿生成音频；未指定的音色和是否生成封面请让我选择。"

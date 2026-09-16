@@ -1,0 +1,4 @@
+interface:
+  display_name: "General Store 播客发布"
+  short_description: "使用密钥发布播客，自动补默认封面，支持素材预检、幂等续跑和回读验收"
+  default_prompt: "使用 $general-store-podcast-publisher 将指定目录的播客素材通过 API Key 和 Secret 发布到 General Store，并保存回执和验证结果。"
